@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
@@ -5,4 +6,50 @@ body {
 
 h1, h2, h3, p {
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* переменные для текста */
+/* переменные для цвета текста */
+
+.container {
+  margin: 0, auto;
+  max-width: 1120px;
+  background-color: yellow;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-flex_item {
+  position: relative;
+  margin-right: 30px;
+}
+
+.card-flex_item h3, .card-flex_item span {
+  position: absolute;
+  color: #18191F;
+  margin-left: 24px;
+}
+
+.card-flex_item h3 {
+  margin-top: 24px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.card-flex_item span {
+  margin-top: 72px;
+  font-size: 18px;
+  line-height: 28px;
 }

@@ -5,4 +5,47 @@ body
 h1, h2, h3, p
     margin: 0
 
+*
+    box-sizing: border-box
+
+@import _veriables
+
+.container
+    margin: 0, auto
+    max-width: 1120px
+    background-color: yellow
+h2
+    margin-bottom: 48px
+    font-size: $title-size-l
+
+.card-flex
+    display: flex
+    flex-wrap: wrap
+    align-content: center
+    margin-right: 2px
+    margin-bottom: 27px
+
+.card-flex_item
+    position: relative
+   
+
+    h3, span
+        position: absolute
+        color: $title-color
+        margin-left: 24px
+
+    h3
+        margin-top: 24px
+        font-size: $title-size-m
+        line-height: 40px
+
+    span
+        margin-top: 72px
+        font-size: $title-size-s
+        line-height: 28px
+
+    img
+        margin-right: -4px
+
+    
 
