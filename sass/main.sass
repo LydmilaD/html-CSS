@@ -11,23 +11,29 @@ h1, h2, h3, p
 @import _veriables
 
 .container
-    margin: 0, auto
-    max-width: 1120px
-    background-color: yellow
+    margin: 0 auto
+    width: 1110px
+    background-color: #FFFFFF
+    
 h2
-    margin-bottom: 48px
     font-size: $title-size-l
+    font-weight: $title-weight-m
 
-.card-flex
+.card-flex-group1
     display: flex
     flex-wrap: wrap
-    align-items: flex-end
-    margin-right: 2px
-    margin-bottom: 27px
+    align-items: stretch
+   
+   
+.card-flex_item-right
+    margin-left: 30px
+    display: flex
+    flex-direction: column
 
 .card-flex_item
     position: relative
-   
+    margin-top: 25px
+       
 
     h3, span
         position: absolute
@@ -38,15 +44,19 @@ h2
         margin-top: 24px
         font-size: $title-size-m
         line-height: 40px
+        font-weight: $title-weight-m
 
     span
         margin-top: 72px
         font-size: $title-size-s
         line-height: 28px
+        font-weight: $title-weight-s
 
-    img
-        margin-right: -4px
-
+.card-flex_item_cactus
+    margin-top: 20px
+    
 .card-flex-group2
-    margin-top: -50px   
+    margin-top: -328px   
+    display: flex
+    align-items: flex-end
 

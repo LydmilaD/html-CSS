@@ -14,26 +14,32 @@ h1, h2, h3, p {
 
 /* переменные для текста */
 /* переменные для цвета текста */
-
 .container {
-  margin: 0, auto;
-  max-width: 1120px;
-  background-color: yellow;
+  margin: 0 auto;
+  width: 1110px;
+  background-color: #FFFFFF;
 }
 
 h2 {
-  text-align: center;
   font-size: 48px;
+  font-weight: 800;
 }
 
-.card-flex {
+.card-flex-group1 {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card-flex_item-right {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-flex_item {
   position: relative;
-  margin-right: 30px;
+  margin-top: 25px;
 }
 
 .card-flex_item h3, .card-flex_item span {
@@ -46,10 +52,22 @@ h2 {
   margin-top: 24px;
   font-size: 28px;
   line-height: 40px;
+  font-weight: 800;
 }
 
 .card-flex_item span {
   margin-top: 72px;
   font-size: 18px;
   line-height: 28px;
+  font-weight: 500;
+}
+
+.card-flex_item_cactus {
+  margin-top: 20px;
+}
+
+.card-flex-group2 {
+  margin-top: -328px;
+  display: flex;
+  align-items: flex-end;
 }
